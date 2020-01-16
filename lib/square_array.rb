@@ -1,6 +1,9 @@
 def square_array(array)
-  array.each do |n|
-    
+  new_array = []
+  array.each do |x|
+    new_array.push x*x
+ end
+ new_array
   counter = 0
   while counter < array.length() 
     array[counter] = array[counter] ** 2 
